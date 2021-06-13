@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn{
+        @apply  bg-gradient-to-t from-yellow-500 to-yellow-400 px-3 py-1 hover:border-none hover:outline-none hover:bg-gradient-to-b from-yellow-600
+                active:outline-none active:border-none
+    }
+}
